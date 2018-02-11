@@ -20,5 +20,7 @@
 
     <h3>I'm enthusiast developer to new technologies</h3>
 
+    <p>Count: ${count}</p>
+
 </body>
 </html>

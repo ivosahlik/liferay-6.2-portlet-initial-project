@@ -128,6 +128,13 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-src/main/java/
-src/main/resources/
-src/test/
+target/generated-sources/
+target/maven-archiver/
+target/portlet-initial-project-v1/META-INF/
+target/portlet-initial-project-v1/WEB-INF/liferay-display.xml
+target/portlet-initial-project-v1/WEB-INF/liferay-plugin-package.properties
+target/portlet-initial-project-v1/WEB-INF/liferay-portlet.xml
+target/portlet-initial-project-v1/WEB-INF/portlet.xml
+target/portlet-initial-project-v1/WEB-INF/resources/
+target/portlet-initial-project-v1/WEB-INF/spring-context/
+target/portlet-initial-project-v1/WEB-INF/web.xml

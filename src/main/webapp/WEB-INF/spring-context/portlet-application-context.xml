@@ -23,4 +23,19 @@
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
     </bean>
 
+    <!-- HSQL Database -->
+    <!--<bean id="dataSource" class="org.hsqldb.jdbc.JDBCDataSource">-->
+        <!--<property name="url" value="jdbc:hsqldb:hsql://localhost/yoututor"/>-->
+        <!--<property name="user" value="sa"/>-->
+        <!--<property name="password" value=""/>-->
+    <!--</bean>-->
+
+    <!-- MYSQL Database -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/eshop" />
+        <property name="username" value="root" />
+        <property name="password" value="root" />
+    </bean>
+
 </beans>
